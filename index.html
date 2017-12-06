@@ -25,6 +25,15 @@
                 background: red;
                 margin: 5px;
             }
+            .transp {
+                display: inline-block;
+                width: 400px;
+                height: 225px;
+                opacity: rgba(50,0,0,0);
+                margin: 5px;
+                position: absolute;
+                z-index: 1;
+            }
             /* navigation */
             li {
                 display: inline;
@@ -58,6 +67,9 @@
                 opacity:.2;
                 transition:.5s;
             }
+            #smallbox {
+                cursor: pointer;
+            }
         </style> 
     </head>
     <body>
@@ -72,38 +84,47 @@
         <!-- grid of videos below -->
         <center>
             <!-- kele okereke -->
+            <div class="transp" onclick="location.href='kele.html';" id="smallbox"></div>
             <div id="red">
             <iframe src="https://player.vimeo.com/video/246083556?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
             
             <!-- live footage -->
+            <div class="transp" onclick="location.href='livef.html';" id="smallbox"></div>
             <div id="red">
             <iframe src="https://player.vimeo.com/video/246083676?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
             
             <!-- blinko -->
+            <div class="transp" onclick="location.href='blinko.html';" id="smallbox"></div>
             <div id="red">
             <iframe src="https://player.vimeo.com/video/246082929?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
             
             <!-- IDER -->
+            <div class="transp" onclick="location.href='ider.html';" id="smallbox"></div>
             <div id="red">
             <iframe src="https://player.vimeo.com/video/246083271?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
             
             <!-- amy milner -->
+            <div class="transp" onclick="location.href='milner.html';" id="smallbox"></div>
             <div id="red">
             <iframe src="https://player.vimeo.com/video/246083961?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
             
             <!-- olympians -->
+            <div class="transp" onclick="location.href='olymp.html';" id="smallbox"></div>
             <div id="red">
             <iframe src="https://player.vimeo.com/video/246084076?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
             
             <!-- blackbird blackbird -->
+            <div class="transp" onclick="location.href='blackb.html';" id="smallbox"></div>
             <div id="red">
             <iframe src="https://player.vimeo.com/video/246082740?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
             
             <!-- count counsellor -->
+            <div class="transp" onclick="location.href='countc.html';" id="smallbox"></div>
             <div id="red">
             <iframe src="https://player.vimeo.com/video/246083059?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
             
             <!-- jatv -->
+            <div class="transp" onclick="location.href='jatv.html';" id="smallbox"></div>
             <div id="red">
             <iframe src="https://player.vimeo.com/video/246083434?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
         </center>
