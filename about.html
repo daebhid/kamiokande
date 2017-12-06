@@ -13,7 +13,20 @@
                 font-family: 'Open Sans', sans-serif;
                 font-size: 12px;
                 text-transform: uppercase;
-            }   
+            }
+        /* div */
+            .midgrid {
+                height: 500px;
+                line-height: 500px;
+                text-align: center;
+                border: 2px dashed red;
+                margin: 1em;
+            }
+            span {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: normal;
+            }
         /* navigation */
             li {
                 display: inline;
@@ -43,14 +56,20 @@
     <body>
         <ul>
             <li><a href="index.html">Kamiokande</a></li>
-            <li style="float:right"><a href="contact.html">Contact</a></li>
             <li style="float:right"><a href="about.html">About</a></li>
         </ul>
+        <div class="midgrid">
+        <span>
         <h1>About</h1>
-        <center>
-        <p>
-        Kamiokande is a UK/US based film and digital production company.
-        </p>
-        </center>
+        <br>Kamiokande is a film and digital production company based in the UK + US.
+        <br><br>+44 (0)7511 792549
+        <br>kamiokande@gmail.com
+        <br><br>Selected Clients:
+        <br>BMG / Sony / Warner / Universal / XL
+        <br>Aesop / Rouge Neon / Barely Regal
+            
+        <br><br><br><li><a href="index.html">>> Back <<</a></li>
+        </span>
+        </div>
     </body>
 </html>
