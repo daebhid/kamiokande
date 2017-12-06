@@ -1,1 +1,139 @@
-<h1>hellow world</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kamkiokande</title>
+        <!-- 
+        add fonts from google / grid that uses video embeds no controls and fills div to edges. create a page that allows you to click the video icons and opens page that gives more info on the project
+        -->
+        <style>
+            /* font choices */
+            html {
+                @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+                background: #fff;
+                color: red;
+            }
+            body {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 12px;
+                text-transform: uppercase;
+            }
+            /* main grid design */
+            .grid {
+                display: inline;
+            }
+            /* wrappers */
+            #red {
+                display: inline-block; 
+                width: 400px;
+                height: 225px;
+                background: red;
+                margin: 5px;
+            }
+            /* navigation */
+            li {
+                display: inline;
+            }
+            ul {
+                padding: 1em;
+                margin: 0;
+            }
+            li a {
+                color: red;
+                padding: .25em;
+                text-decoration: none;
+            }
+            
+            li a:hover {
+                text-decoration: underline;
+                color: red;
+            }
+            /* headers */
+            h1 {
+                text-transform: uppercase;
+                font-size: 20px;
+                text-align: center;
+            }
+            /* video */
+            video {
+                border: 0px solid red;
+            }
+            video:hover {
+                opacity:.2;
+                transition:.5s;
+            }
+            img {
+                margin: 0;
+                display: none;
+            }
+            /* img:hover {
+                opacity:.2;
+                transition:.5s; */
+            }
+            /* frame idea */
+            iframe {
+                margin: 0;
+                display: block;
+            }
+            iframe:hover {
+                opacity:.2;
+                transition:.5s;
+            }
+            
+            /* Playground by EThaiZone */
+            #parent {
+              width: 400px;
+              height: 225px;
+            }
+            #parent > button {
+              opacity: 0.3;
+              position:relative;
+            }
+            #parent > button {
+              opacity: .1;
+            }  
+            button {
+                width: 400px;
+                height: 225px;
+            }
+  
+        </style> 
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Kamiokande</a></li>
+            <li style="float:right"><a href="contact.html">Contact</a></li>
+            <li style="float:right"><a href="about.html">About</a></li>
+        </ul>
+        <center>
+            
+            <div id="parent">
+            <iframe src="https://player.vimeo.com/video/246082740?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <button formaction="http://google.com"></button>
+            </div>
+            
+            <div id="red">
+            <iframe src="https://player.vimeo.com/video/246082740?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div id="red">
+            <iframe src="https://player.vimeo.com/video/246082929?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div id="red">
+            <iframe src="https://player.vimeo.com/video/246083059?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div id="red">
+            <iframe src="https://player.vimeo.com/video/246083271?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div id="red">
+            <iframe src="https://player.vimeo.com/video/246083434?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div id="red">
+            <iframe src="https://player.vimeo.com/video/246083556?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div id="red">
+            <iframe src="https://player.vimeo.com/video/246083676?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div id="red">
+            <iframe src="https://player.vimeo.com/video/246083961?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div id="red">
+            <iframe src="https://player.vimeo.com/video/246084076?background=1" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+        </center>
+    </body>
+        <!-- <div id="red">
+        <a href="image.html">
+        <img src="img/1975_1.jpg" alt="HTML5 Icon" style="width:400px;height:225px;">
+        </a>
+        </div> -->
+</html>
