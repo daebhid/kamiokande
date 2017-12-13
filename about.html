@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>About</title>
+        <title>Kamkiokande</title>
         <style>
-        /* font choices */
             html {
                 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-                background: #000;
+                background: #fff;
                 color: red;
             }
             body {
@@ -14,7 +13,16 @@
                 font-size: 12px;
                 text-transform: uppercase;
             }
-        /* div */
+            
+            /* DIVS */
+            .website {
+                width: 100%;
+                height: 100%;  
+            }
+            
+            #title {
+                
+            }
             .midgrid {
                 height: 500px;
                 line-height: 500px;
@@ -26,7 +34,7 @@
                 vertical-align: middle;
                 line-height: normal;
             }
-        /* navigation */
+            /* NAVIGATION */
             li {
                 display: inline;
             }
@@ -36,39 +44,41 @@
             }
             li a {
                 color: red;
-                padding: .25em;
                 text-decoration: none;
             }
-            
             li a:hover {
                 text-decoration: underline;
                 color: red;
             }
-            /* headers */
-            h1 {
-                text-transform: uppercase;
-                font-size: 20px;
-                text-align: center;
+            a.space {
+                padding-right: 1.5em;
             }
-        </style>
+            
+        </style>    
     </head>
     <body>
+        <div class="website">
+            
         <ul>
             <li><a href="index.html">Kamiokande</a></li>
-            <li style="float:right"><a href="index.html">Home</a></li>
+            <li><a href="index.html" style="float:right">Home</a></li>
         </ul>
-        <div class="midgrid">
-        <span>
-        <h1>About</h1>
-        <br>Kamiokande is a film and digital production company based in the UK + US.
-        <br><br>+44 (0)7511 792549
-        <br>kamiokande@gmail.com
-        <br><br>Selected Clients:
-        <br>BMG / Sony / Warner / Universal / XL
-        <br>Aesop / Rouge Neon / Barely Regal
             
-        <br><br><br><li><a href="index.html">>> Back <<</a></li>
+        <center>
+            <div class="midgrid">
+            <span>
+            <br><h1>Kamiokande</h1>
+            <br>A film and digital production company
+            <br><br>+44 (0)7511 792549
+            <br>kamiokande@gmail.com
+            <br><br>Selected Clients:
+            <br>BMG / Sony / Warner / Universal / XL
+            <br>Aesop / Rouge Neon / Barely Regal
         </span>
+        </div>
+            
+        </center>  
+            
         </div>
     </body>
 </html>
