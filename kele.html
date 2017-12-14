@@ -2,14 +2,10 @@
 <html>
     <head>
         <title>Kamkiokande</title>
-        <!-- 
-        add fonts from google / grid that uses video embeds no controls and fills div to edges. create a page that allows you to click the video icons and opens page that gives more info on the project
-        -->
         <style>
-            /* font choices */
             html {
                 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-                background: #000;
+                background: #fff;
                 color: red;
             }
             body {
@@ -17,20 +13,28 @@
                 font-size: 12px;
                 text-transform: uppercase;
             }
-            /* main video grid design */
-            .vidgrid {
-                display: grid;
+            
+            /* DIVS */
+            .website {
+                width: 100%;
+                height: 100%;  
+            }
+            
+            #title {
+                
+            }
+            .midgrid {
+                height: 500px;
+                line-height: 500px;
+                text-align: center;
                 margin: 1em;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-gap: 10px;
             }
-            /* wrappers */
-            #wrapper {
-                width: 400px;
-                height: 225px;
-                background: red;
+            span {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: normal;
             }
-            /* navigation */
+            /* NAVIGATION */
             li {
                 display: inline;
             }
@@ -40,39 +44,32 @@
             }
             li a {
                 color: red;
-                padding: .25em;
                 text-decoration: none;
             }
-            
             li a:hover {
                 text-decoration: underline;
                 color: red;
             }
-            /* headers */
-            h1 {
-                text-transform: uppercase;
-                font-size: 20px;
-                text-align: center;
+            a.space {
+                padding-right: 1.5em;
             }
-            
-            video:hover {
-                opacity:.2;
-                transition:.5s;
-            }
-            
             
         </style>    
     </head>
     <body>
+        <div class="website">
+            
         <ul>
             <li><a href="index.html">Kamiokande</a></li>
-            <li style="float:right"><a href="about.html">About</a></li>
+            <li><a href="index.html" style="float:right">Home</a></li>
         </ul>
-            <center>
-                <p>Kele Okereke - Streets Been Talkin'
+            
+        <center>
+            <p>Kele Okereke - Fatherland
                 <p>
                 <iframe width="800" height="450" src="https://www.youtube.com/embed/-agfOOYKmUg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-                <li><a href="index.html">>> Back <<</a></li>
-            </center>
+        </center>  
+            
+        </div>
     </body>
 </html>
